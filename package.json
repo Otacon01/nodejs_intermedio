@@ -1,0 +1,25 @@
+{
+  "name": "nodejs_intermedio",
+  "version": "1.0.0",
+  "description": "Node JS Intermedio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Otacon01/nodejs_intermedio.git"
+  },
+  "author": "Juan Pablo Toro Arias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Otacon01/nodejs_intermedio/issues"
+  },
+  "homepage": "https://github.com/Otacon01/nodejs_intermedio#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "sequelize": "^6.37.3"
+  }
+}
