@@ -4,5 +4,5 @@ const enrutador = express.Router();
 const jugadorNivelControlador = require('../controladores/jugadorNivelControlador');
 
 enrutador.post('/comprar',jugadorNivelControlador.registrarPuntaje);
-enrutador.get('/obtener/:cedula',jugadorNivelControlador.obtenerPuntajePorUsuario);
+enrutador.get('/obtener/:cedula',jugadorNivelControlador.obtenerPuntajePorJugador);
 module.exports = enrutador;
