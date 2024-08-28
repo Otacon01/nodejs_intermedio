@@ -1,6 +1,6 @@
 
 module.exports = (sequelize, DataTypes) => {
-    return sequelize.define('UsuarioNivel', {
+    return sequelize.define('JugadorNivel', {
         id: {
             type: DataTypes.INTEGER,
             primaryKey: true,
@@ -21,11 +21,10 @@ module.exports = (sequelize, DataTypes) => {
             }
           },
           puntajeMaximo: {
-            type: DataTypes.INTEGER,
-            defaultValue: 0
+            type: DataTypes.INTEGER
           }
     }, {
-      tableName: 'usuarionivel',
+      tableName: 'jugadornivel',
       timestamps: true,
     });
 };
