@@ -9,7 +9,7 @@ const niveleRutas = require('./rutas/rutasNivel');
 const jugadorNivelRutas = require('./rutas/rutasJugadorNivel');
 
 const corsOpciones = {
-  origin: '*',
+  origin: 'http://localhost:3000',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
 };
